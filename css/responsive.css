@@ -1,29 +1,66 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 576px) {
   /* nav start */
 
   nav {
-    margin: 20px 40px;
+    margin: 20px 30px;
+    margin-top: 30px;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
-  .nav-icon {
-    display: block;
-  }
 
   /* nav end */
 
   /* banner start */
   .banner {
+    flex-direction: column;
+    align-items: start;
+    /* margin-bottom: 30px; */
   }
+
   .banner-text {
+    max-width: 100%;
+    margin-left: 80px;
+  }
+
+  .banner-text h2 {
+    font-size: 50px;
+  }
+
+  .banner-text p {
+    margin-top: 10px;
+    font-size: 18px;
     /* width: 100%; */
   }
 
+  .banner-text .miama {
+    font-size: 60px;
+  }
+
+  .primary-btn {
+    padding: 16px;
+    font-size: 15px;
+  }
+  .secondary-btn {
+    padding: 16px;
+    font-size: 15px;
+  }
+
   .banner-image {
-    flex-direction: column;
+    margin-top: 32px;
+    position: relative;
+    margin: 0 auto;
+    /* margin-left: 40px; */
+  }
+
+  .item-1 {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+  }
+
+  .item-2 {
+    position: absolute;
+    bottom: 250px;
+    left: -20px;
   }
 
   /* banner end */
@@ -49,7 +86,6 @@
   .banner {
     flex-direction: column;
     align-items: start;
-    /* padding: 10px; */
     margin: 20px 20px;
   }
 
@@ -59,7 +95,6 @@
   }
 
   .banner-text h2 {
-    /* margin: 0; */
     font-size: 50px;
   }
 
@@ -72,10 +107,6 @@
     font-size: 30px;
   }
 
-  .banner-button {
-    /* padding: 10px; */
-  }
-
   .primary-btn {
     padding: 16px;
     font-size: 15px;
@@ -86,18 +117,15 @@
   }
 
   .banner-image {
-    /* width: 50%; */
     margin-top: 32px;
     margin-left: 40px;
     position: relative;
   }
 
   .item-1 {
-    /* text-align: left; */
     position: absolute;
     top: 70px;
     left: 200px;
-    /* padding: 16px; */
   }
 
   .item-2 {
