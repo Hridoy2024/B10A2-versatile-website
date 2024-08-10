@@ -39,6 +39,7 @@ p {
 
 .primary-btn {
   padding: 16px 40px;
+  /* padding: 16px 40px 16px 40px; */
   border-radius: 42px;
   background: rgb(230, 83, 60);
   border: none;
@@ -220,37 +221,74 @@ nav ul li:hover {
   grid-template-columns: repeat(4, 1fr);
 }
 
-
 .box-rounded img {
   box-sizing: border-box;
   border-radius: 50%;
 }
-.box-content{
+.box-content {
   margin-top: 20px;
 }
 
-.box-1, .box-2, .box-3, .box-4{
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
   /* width: 25%; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
- 
 }
 
-.box-content p{
+.box-content p {
   margin-top: 6px;
   width: 231px;
 }
 
 /* Habit Section End  */
+
 /* Run Section Start */
 
+.run-container {
+  margin-top: 101px;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  /* justify-content: space-between; */
+}
 
+.run-content {
+  width: 50%;
+  padding: 41px;
+}
+
+.run-content h3 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.run-content p {
+  width: 445px;
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
+.run-btn{
+}
+
+.run-image {
+  width: 50%;
+  margin-top: 30px;
+  padding-left: 100px;
+}
+
+.run-image img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  object-fit: none;
+  object-position: 66% 28%;
+}
 
 /* Run Section End */
-
-
-
-
