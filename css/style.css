@@ -367,7 +367,7 @@ nav ul li:hover {
   opacity: 80%;
 }
 
-.img-text{
+.img-text {
   position: absolute;
   bottom: 10px;
   left: 20px;
@@ -375,7 +375,6 @@ nav ul li:hover {
 
 .img-2 {
   position: relative;
- 
 }
 
 .img-2 img {
@@ -430,3 +429,59 @@ nav ul li:hover {
 }
 
 /* meet end */
+/* footer start */
+footer {
+  max-width: 1440px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  margin-top: 88px;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.footer-1 {
+  width: 50%;
+}
+
+.footer-1 p {
+  width: 449px;
+  margin-top: 20px;
+}
+
+.footer-2 {
+  width: 25%;
+}
+
+.footer-2 ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.footer-3 {
+  width: 25%;
+}
+
+.footer-3 ul li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+
+.footer-copyright {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  /* margin-top: 32px; */
+}
+/* footer end */
